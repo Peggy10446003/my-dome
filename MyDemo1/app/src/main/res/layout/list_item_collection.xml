@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonRemove"
+        android:layout_alignStart="@+id/textViewContext"
+        android:text="Title"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/black"
+        android:layout_alignLeft="@+id/textViewContext" />
+
+    <TextView
+        android:id="@+id/textViewContext"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonRemove"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Context" />
+
+    <Button
+        android:id="@+id/buttonRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/buttonCopy"
+        android:layout_below="@+id/buttonCopy"
+        android:text="Add/Remove From Glossary" />
+
+    <Button
+        android:id="@+id/buttonCopy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Copy to Clipboard" />
+</RelativeLayout>

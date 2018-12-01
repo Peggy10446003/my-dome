@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ImageSlider</string>
+
+    <string name="slide_1_title">本app提供的功能</string>
+    <string name="slide_1_desc">1.字典查詢\n     2.單字探索\n   3.單字收藏</string>
+
+    <string name="slide_2_title">右上角setting</string>
+    <string name="slide_2_desc">可以設定想要系統\n推薦的單字分類。</string>
+
+    <string name="slide_3_title">搜尋功能</string>
+    <string name="slide_3_desc">輸入想要查詢的單字，\n下方會列出所搜尋的結果。</string>
+
+    <string name="slide_4_title">探索按鈕</string>
+    <string name="slide_4_desc">按下按鈕後會根據先前設定列出推薦單字。</string>
+
+    <string name="slide_5_title">star</string>。
+    <string name="slide_5_desc">星星表示是否收藏，\n按下複製可將單字複製到剪貼簿</string>
+
+    <string name="slide_6_title">收藏頁面</string>
+    <string name="slide_6_desc">可檢視個人收藏的單字，\n也可取消收藏</string>
+
+    <string name="my_preference">com.abc.com.MyPref</string>
+    <string name="my_preference_key">com.abc.com.MyPrefKey</string>
+</resources>

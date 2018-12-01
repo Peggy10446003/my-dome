@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ntubimd.mydemo1.MainActivity$PlaceholderFragment">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutExplore"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/buttonRnd"
+        android:visibility="invisible"
+        android:layout_alignParentLeft="true">
+
+        <include layout="@layout/list_item_collection" />
+    </RelativeLayout>
+
+    <Button
+
+        android:id="@+id/buttonRnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="Explore" />
+
+</RelativeLayout>

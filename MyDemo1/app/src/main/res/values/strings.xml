@@ -1,0 +1,15 @@
+<resources>
+    <!-- <string name="app_name">My Glossary</string>
+    <string name="action_settings">設定</string> -->
+    <string name="action_theme">字彙主題分類</string>
+    <string name="action_help">使用說明</string>
+    <string name="action_userprofile">使用者資料</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="search">Search</string>
+
+    <string name="app_name">Glossary!</string>
+    <string name="tab_text_1">Dictionary</string>
+    <string name="tab_text_2">Explore</string>
+    <string name="tab_text_3">Collection</string>
+    <string name="action_settings">Settings</string>
+</resources>

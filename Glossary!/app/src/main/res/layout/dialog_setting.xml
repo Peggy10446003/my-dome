@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textSettingTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textAlignment="center" />
+
+    <ScrollView
+        android:id="@+id/scrollSetting"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/textSettingTitle"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="insideOverlay"
+        android:minHeight="300dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkAmphibian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="兩棲動物" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkAnimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:text="動物" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkArts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:text="美術" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkAstronomy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="3"
+                android:text="天文" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkAutumn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="4"
+                android:text="秋天" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkBaseball"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="5"
+                android:text="棒球" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkBathroom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="6"
+                android:text="浴室" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkBeach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="7"
+                android:text="海灘" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkBig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="8"
+                android:text="形容-大的" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkBiome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="9"
+                android:text="生態" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkBird"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="10"
+                android:text="鳥類" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkBirthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="11"
+                android:text="生日" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkBoat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="12"
+                android:text="船" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkBodiesofWater"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="13"
+                android:text="水域" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkBody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="人體" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkBuildings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:text="建築" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkBusiness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:text="商業" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkCamping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="3"
+                android:text="露營" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkCarParts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="4"
+                android:text="汽車零件" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="5"
+                android:text="汽車" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkCarnivalsandFairs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="6"
+                android:text="節慶" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkCastlesKingsandQueens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="7"
+                android:text="騎士文化" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkCat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="8"
+                android:text="貓" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkChineseNewYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="9"
+                android:text="東方新年" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkChristmas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="10"
+                android:text="聖誕節" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkClothes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="11"
+                android:text="服飾" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkColors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="12"
+                android:text="顏色" />
+
+            <CheckBox
+                android:buttonTint="#FF4500"
+                android:id="@+id/checkComputer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="13"
+                android:text="電腦" />
+        </GridLayout>
+
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollSetting"
+        android:layout_centerHorizontal="true"
+        android:text="Done" />
+</RelativeLayout>
